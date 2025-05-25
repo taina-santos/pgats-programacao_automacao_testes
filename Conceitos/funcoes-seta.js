@@ -10,6 +10,12 @@ const saudacaoSeta = (nome) => {
 
 console.log(saudacaoSeta("Tay"))
 
+/**
+ * É possível reescrever a função de seta acima sem chaves e com retorno implícito, 
+ */
+const saudacaoSetaSemChaves = nome => `Olá ${nome}, função de seta sem chaves e com retorno implícito`;
+console.log(saudacaoSetaSemChaves('Tay'))
+
 // Função de seta, com parâmtro e sem retorno
 const exibirNomeDoDog = (nome) => {
     //console.log(`Olá doguinho ${nome}`)
