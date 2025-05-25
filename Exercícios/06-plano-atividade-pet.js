@@ -36,6 +36,8 @@ function selecaoAtividade(porteDog){
             case 'G':
                 return `Correr no parque`
         }
+    else
+        return `Porte inválido`
 }
 
 function exibirPlanoAtividades(nomeDog, porteDog, tempo){
