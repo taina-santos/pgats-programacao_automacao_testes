@@ -1,0 +1,13 @@
+{
+  "name": "pgats-programacao_automacao_testes",
+  "version": "1.0.0",
+  "description": "Projeto focado no material registrado durante a disciplina de Programação para Automação de Testes do PGATS, entre conceitos e exercícios feitos em aula",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
